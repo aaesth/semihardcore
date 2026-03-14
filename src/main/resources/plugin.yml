@@ -1,0 +1,19 @@
+name: SemiHardcore
+version: '1.0.0'
+main: cc.aesth.semihardcore.SemiHardcore
+api-version: '1.21.1'
+description: Hardcore revival plugin with Soul Amber item and death chests.
+authors:
+  - aesth
+
+commands:
+  revive:
+    description: Revive a banned hardcore player (admin use).
+    usage: /revive <player>
+    permission: semihardcore.revive
+    permission-message: You don't have permission to use this command.
+
+permissions:
+  semihardcore.revive:
+    description: Allows use of the /revive command.
+    default: op
